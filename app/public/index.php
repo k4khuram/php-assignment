@@ -2,7 +2,7 @@
 
 use App\Dispatcher\RouteDispatcher;
 use Dotenv\Dotenv;
-
+// autoload
 require __DIR__ . '/../vendor/autoload.php';
 
 $dotEnv = Dotenv::createImmutable(__DIR__ . '/..');
